@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --gap: 1em;
+    --index: 1vw + 1vh;
+}
+body{
+    background: #000612;
+    font-family: 'Montserrat', sans-serif;
+    max-height: 100%;
+}
+.navbar-text{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    z-index: 1000;
+}
+.text ul{
+    list-style: none;
+    display: flex;
+}
+.text li{
+    padding: 30px;
+}
+.text a{
+    text-decoration: none;
+    color: #fff;
+}
+.klyaksa {
+    z-index: 100;
+    display: flex;
+    margin-left: 820px;
+    width: calc(var(--index) * 112.9);
+}
+  .klyaksa img {
+    margin-top: -100px;
+}
+.blue-brightness{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px; 
+    opacity: 50%;
+}
+.main-text{
+    position: absolute;
+    top: 320px;
+    left: 70px;
+}
+.main-text h2{
+    font-weight: 900;
+    margin-bottom: 5px;
+    display: block;
+    color: #fff;
+}
+.main-text p {
+    display: flex;
+    margin-bottom: 3px;
+    font-weight: 400;
+    color: #fff;
+}
+.text-main-last{
+    position: relative;
+    top: 20px;
+}
+.text-main-last p span{
+    display: flex;
+}
+.xvost-lisi{
+    position: absolute;
+    top: 400px;
+    width: 250px;
+}
+.button-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: absolute;
+    top: 510px;
+    left: 65px;
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    background: #5142FF;
+    box-shadow: 0px 3px 6px 0px rgba(81, 66, 255, 0.14), 0px 10px 10px 0px rgba(81, 66, 255, 0.12), 0px 23px 14px 0px rgba(81, 66, 255, 0.07), 0px 41px 16px 0px rgba(81, 66, 255, 0.02), 0px 64px 18px 0px rgba(81, 66, 255, 0.00);
+}
+.srelka-vniz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
