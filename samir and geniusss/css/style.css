@@ -9,90 +9,64 @@
     --index: 1vw + 1vh;
 }
 body{
-    background: #000612;
+    background: #2F56FF;
     font-family: 'Montserrat', sans-serif;
     max-height: 100%;
 }
-.navbar-text{
-    font-size: 17px;
+.container{
+    margin: 50px 80px;
+}
+.menu-text{
+    margin-top: -40px;
     display: flex;
     justify-content: center;
+    font-weight: 500;
 }
-.text{
-    z-index: 1000;
-}
-.text ul{
+.menu-text ul{
+    display: flex;
     list-style: none;
-    display: flex;
 }
-.text li{
-    padding: 30px;
+
+.menu-text li{
+    padding-left: 70px;
 }
-.text a{
+.menu-text a{
+    font-size: 20px;
     text-decoration: none;
-    color: #fff;
+    color: white;
 }
-.klyaksa {
-    z-index: 100;
+
+
+.welcome-start{
     display: flex;
-    margin-left: 820px;
-    width: calc(var(--index) * 112.9);
+    justify-content: center;
 }
-  .klyaksa img {
-    margin-top: -100px;
-}
-.blue-brightness{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 600px; 
-    opacity: 50%;
-}
-.main-text{
-    position: absolute;
-    top: 320px;
-    left: 70px;
-}
-.main-text h2{
+.welcome-start, .welcome-text{
+    font-size: 30px;
+    margin-top: 70px;
+    color: white;
     font-weight: 900;
-    margin-bottom: 5px;
-    display: block;
-    color: #fff;
+    text-align: center;
 }
-.main-text p {
+.welcome-use{
+    margin-top: 9px;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-weight: 700;
+    text-align: center;
+}
+.button-starts{
     display: flex;
-    margin-bottom: 3px;
-    font-weight: 400;
-    color: #fff;
-}
-.text-main-last{
-    position: relative;
-    top: 20px;
-}
-.text-main-last p span{
-    display: flex;
-}
-.xvost-lisi{
-    position: absolute;
-    top: 400px;
-    width: 250px;
-}
-.button-details{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    color: #fff;
-    position: absolute;
-    top: 510px;
-    left: 65px;
-    width: 180px;
-    height: 45px;
+    margin-top: 20px;
+}
+.start{
     border-radius: 30px;
-    background: #5142FF;
-    box-shadow: 0px 3px 6px 0px rgba(81, 66, 255, 0.14), 0px 10px 10px 0px rgba(81, 66, 255, 0.12), 0px 23px 14px 0px rgba(81, 66, 255, 0.07), 0px 41px 16px 0px rgba(81, 66, 255, 0.02), 0px 64px 18px 0px rgba(81, 66, 255, 0.00);
-}
-.srelka-vniz{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 0;
+    background: #FFF;
+    width: 259px;
+    height: 61px;
+    font-size: 20px;
+    font-weight: 700;
 }
