@@ -53,7 +53,7 @@ body{
     font-size: 15px;
     color: #FFFFFF;
     opacity: 0.5;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
 .button-starts{
@@ -62,22 +62,31 @@ body{
     margin-top: 20px;
 }
 .start{
+    font-family: 'Montserrat', sans-serif;
     border-radius: 30px;
     border: 0;
     background: #FFF;
     width: 259px;
     height: 61px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 }
 
-
-.img-start, img{
-    margin: 0 auto;
-}
+.welcome-img {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+  }
+  
 .img-start{
-    border-radius: 25px;
     width: 1050px;
     height: 480px;
-    background: rgba(217, 217, 217, 0.10);    
-}
+    margin: 0 auto;
+  }
+  
+  .img-end {
+    m
+    width: 1164px;
+    height: 535px;
+  }
+  
