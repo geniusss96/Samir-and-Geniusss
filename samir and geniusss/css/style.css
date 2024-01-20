@@ -97,25 +97,43 @@ body{
   }
   
   
-  
-
   .new-navbar{
     display: flex;
     position: relative;
     top: 40px;
     left: 0;
     width: 100%;
-    height: 100;
+    height: 1000px;
     background-color: #000612;
     z-index: -1;
   }
 
-.text-one, .text-use{
+.text-one{
     color: white;
+    margin-top: 150px;
+    margin-left: 50px;
 }
-img, p{
+.palka, .text-use{
     display: flex;
+    float: left;
+    margin-left: 15px;
 }
+.text-use{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.main-text-use{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.text-two{
+    color: white;
+    margin-top: 150px;
+    margin-left: 500px; 
+}
+
+
 
   @media screen and (max-width: 1560px) and (min-width: 1250px) {
     .img-start{
@@ -126,6 +144,12 @@ img, p{
         width: 1300px;
         height: 850px;
     }
+    .palka, .text-use{
+        display: flex;
+        float: left;
+        margin-left: 15px;
+    }
+
   } 
   @media screen and (max-width: 1250px) and (min-width: 656px) {
     .img-start{
