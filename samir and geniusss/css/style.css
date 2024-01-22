@@ -70,6 +70,8 @@ body{
     height: 61px;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .welcome-img {
@@ -96,22 +98,33 @@ body{
     transform: translate(-50%, -50%); 
   }
   
-  
-  .new-navbar{
+
+.new-navbar-start-text{
+    position: relative;
+    display: flex;
+    padding: 150px 20px;
+    color: white;
+}
+.new-navbar{
     display: flex;
     position: relative;
-    top: 40px;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 1000px;
+    height: 100vh;
     background-color: #000612;
     z-index: -1;
   }
 
-.text-one{
-    color: white;
-    margin-top: 150px;
-    margin-left: 50px;
+.user-palka{
+    display: flex;
+}
+.user-palka, .palka{
+    margin-top: 20px;
+}
+.palka{
+    height: 160px;
+    border: 2px solid  #FF005C;
 }
 .palka, .text-use{
     display: flex;
@@ -128,10 +141,56 @@ body{
     margin-bottom: 15px;
 }
 .text-two{
-    color: white;
-    margin-top: 150px;
-    margin-left: 500px; 
+    padding-left: 200px;
 }
+
+.last-btn {
+    display: block;
+  }
+  
+  .main-new-navbar-content{
+    display: block;
+    margin-top: -350px;
+  }
+  .text-last-new-navbar{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+  }
+  .new-btn-start, .text-last-new-navbar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  .new-btn-start {
+    cursor: pointer;
+    width: 270px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 62px;
+    background: rgba(255, 138, 250, 0.40);
+    font-size: 15px;
+    font-weight: 700;
+    color: #AD00FF;
+    text-align: center;
+    padding: 10px 20px;
+  }
+ .last-text-main{
+    margin-top: 30px;
+ }
+ .ttt{
+    background: linear-gradient(92deg, #1A2DF5 1.6%, #0080FF 84.09%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
 
 
 
@@ -160,6 +219,12 @@ body{
         width: 800px;
         height: 750px;
     }
+    .new-navbar-start-text{
+        display: block;
+    }
+    .text-two{
+        padding-left: 0;
+    }
   } 
   @media screen and (max-width: 656px) and (min-width: 300px) {
     .img-start{
@@ -169,5 +234,12 @@ body{
     .img-end{
         width: 634px;
         height: 650px;
+    }
+    .new-navbar-start-text{
+        display: block;
+    }
+    .text-two{
+        margin-top: 30px;
+        padding-left: 0;
     }
   } 
