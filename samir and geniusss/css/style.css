@@ -123,7 +123,7 @@ body{
     margin-top: 20px;
 }
 .palka{
-    height: 160px;
+    height: 120px;
     border: 2px solid  #FF005C;
 }
 .palka, .text-use{
@@ -161,7 +161,7 @@ body{
     font-family: Montserrat;
     font-size: 40px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     line-height: normal;
     text-transform: capitalize;
     margin-top: 10px;
@@ -202,13 +202,69 @@ body{
     padding: 60px 60px;
     display: flex;
 }
-.card-content{
+.card-content-one{
     margin-left: 50px;
     width: 520px;
     height: 630px;
     border-radius: 20px;
     background: linear-gradient(146deg, #D9D9D9 -1.82%, #8000FF -1.81%, #DB00FF 100.9%);    
 }
+.card-content-two{
+    margin-left: 50px;
+    width: 520px;
+    height: 630px;
+    border-radius: 20px;
+    background: linear-gradient(147deg, #FF5C00 0%, #F90 138.59%);
+}
+.card-content-tree{
+    margin-left: 50px;
+    width: 520px;
+    height: 630px;
+    border-radius: 20px;
+    background: linear-gradient(142deg, #00DF3E -1.09%, #0F6 151.99%, #0F6 152%);
+}
+
+.wave-min{
+    height: 100vh;
+    background-color: #000612;
+    color: white;
+    display: flex;
+}
+.text-job{
+    padding-left: 90px;
+    margin-top: -120px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.palka-job{
+    margin-top: -110px;
+    margin-left: 20px;
+    height: 100px;
+    border: 2px solid  #FF005C;
+}
+.text-job-last{
+    margin-top: -100px;
+    margin-left: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.img-wave{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    
+}
+.img-wave, .wave-img{ 
+    width: 1770px;
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+
+
+
+
 
   @media screen and (max-width: 1560px) and (min-width: 1250px) {
     .img-start{
