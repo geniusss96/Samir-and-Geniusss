@@ -106,6 +106,15 @@ body{
     padding: 150px 20px;
     color: white;
 }
+.hamburger{
+    display: none;
+}
+.list{
+    width: 30px;
+    margin-top: 7px;
+    height: 3px;
+    background-color: black;
+}
 .new-navbar{
     width: 100%;
     height: 600vh;
@@ -310,7 +319,6 @@ body{
 }
 
 .last-navbar{
-    display: flex;
     margin: 0 auto;
     margin-top: 50px;
     width: 1790px;
@@ -500,7 +508,7 @@ body{
     background-color: #D9D9D933;
 }
 
-  @media screen and (max-width: 1560px) and (min-width: 1250px) {
+  @media screen and (max-width: 1560px) and (min-width: 956px) {
     .img-start{
         width: 850px;
         height: 400px;
@@ -521,31 +529,14 @@ body{
         justify-content: center;
     }
   } 
-  @media screen and (max-width: 1250px) and (min-width: 656px) {
-    .img-start{
-        width: 550px;
-        height: 400px;
+ 
+  @media screen and (max-width: 956px) and (min-width: 300px) {
+    .menu-text{
+        display: none;
     }
-    .img-end{
-        width: 800px;
-        height: 750px;
-    }
-    .new-navbar-start-text{
-        display: block;
-    }
-    .text-two{
-        padding-left: 0;
-    }
-    .text-one{
-        padding-left: 0;
-    }
-    .img-wave{
-        width: 50px;
-        display: flex;
-        justify-content: center;
-    }
-  } 
-  @media screen and (max-width: 656px) and (min-width: 300px) {
+   .logo{
+    margin: 0;
+   }
     .img-start{
         width: 450px;
         height: 300px;
@@ -564,4 +555,34 @@ body{
     .text-one{
         padding-left: 0;
     }
+    .card-main{
+        display: block;
+        width: 300px;
+        margin-left: 200px;
+    }
+    .new-navbar{
+        width: 151.1vh; 
+        height: 900vh;
+    }
+    .last-img{
+        display: none;
+    }
+    .card-content-one{
+        margin-left: 50px;
+    }
+    .logo{
+        display: flex;
+        justify-content: start;
+        margin-left: 1px;
+    }
+    .last-wave-text{
+        font-size: 34px;
+    }
+    .hamburger{
+        display: block;
+        margin-left: 100%;
+    }
+   .welcome{
+    display: block;
+   }
   } 
